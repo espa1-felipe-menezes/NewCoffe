@@ -1,0 +1,30 @@
+.botoes{
+    height:20px;
+    width:20px;
+    border-radius:100%;
+
+}
+
+.nome{
+    font-size: 30px;
+    
+}
+.menu{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    gap:25px;
+
+}
+.menu a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+
+#banner{
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover; /* garante que a imagem preencha sem distorcer */
+}
