@@ -37,16 +37,49 @@ body{
     width: 100%;
     height: auto;
     display: block;
-    object-fit: cover; /* garante que a imagem preencha sem distorcer */
+    /* object-fit: cover; garante que a imagem preencha sem distorcer */
 }
 nav{
     top: 0;
     position: sticky;
-    
 }
-.linha{
+#fotos1 {
+  text-align: center; /* centraliza tudo */
+}
+.fotos {
+  width: 45%;   /* ocupa quase metade da tela (duas por linha) */
+  max-width: 300px; /* evita ficar muito grande */
+  height: auto; /* mantém proporção */
+  margin: 5px;  /* espacinho entre as imagens */
+  border-radius: 10px; /* opcional, deixa bonitinho */
+}
+footer{
+    background-color: white;
+}
+a{
+    transition: 0.2s ease;
+}
+ul li a:hover{
+    color: #FADCD9;
+    font-size: 17px;
+}
+
+ul li a:focus{
+    font-size: 15px;
+}
+
+button{
+    transition: 0.2s ease;
 
 }
-.fotos{
-    height: 470px;
+ul li button:hover{
+    background-color: #FADCD9;
+    height: 22px;
+    width: 22px;
+    cursor: pointer;
+}
+ul li button:focus{
+    height: 22px;
+    width: 22px;
+    background-color: #C9B7A7;
 }

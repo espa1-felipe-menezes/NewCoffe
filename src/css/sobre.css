@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.botoes{
+    height:20px;
+    width:20px;
+    border-radius:100%;
+
+}
+body{
+    background-color: #FADCD9;
+}
+
+.titulo{
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;
+}
+.menu{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    padding: 20px;
+    background-color:white;
+    margin: 0px;
+    
+}
+.menu a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+#banner{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover; /* garante que a imagem preencha sem distorcer */
+}
+nav{
+    top: 0;
+    position: sticky;
+}
+#historia p {
+    margin-top: 70px;
+  font-size: 25px;
+  line-height: 1.6;
+  color: #000000;
+  margin-bottom: 18px;
+  text-align:left;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+#historia p:first-of-type::first-letter {
+    font-size: 50px; 
+    margin-right: 10px;    
+}
