@@ -4,10 +4,9 @@
 O projeto apresenta navegação intuitiva, um sistema de pedidos interativo, um quiz gamificado e um formulário de feedback com alertas personalizados. 
 ---
 ##  Estrutura do Projeto  
-```
-## ☕ Estrutura de Pastas — NEWCOFFE
 
-```bash
+
+```
 ├── NEWCOFFE/
 │
 ├── src/
