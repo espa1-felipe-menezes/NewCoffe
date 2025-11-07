@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .botoes{
     height:20px;
     width:20px;
@@ -14,9 +15,15 @@ body{
 }
 
 .titulo{
+    margin: 30px;
     font-size: 30px;
     text-align: center;
-    margin: 30px;
+    
+}
+.titulo2{
+     font-size: 30px;
+    text-align: center;
+    margin-bottom: 100px;
 }
 .menu{
     list-style:none;
@@ -53,9 +60,6 @@ nav{
   margin: 5px;  /* espacinho entre as imagens */
   border-radius: 10px; /* opcional, deixa bonitinho */
 }
-footer{
-    background-color: white;
-}
 a{
     transition: 0.2s ease;
 }
@@ -82,4 +86,95 @@ ul li button:focus{
     height: 22px;
     width: 22px;
     background-color: #C9B7A7;
+}
+footer {
+  background-color: #998b7f;
+  color: #e0e0e0;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: auto;
+  transition: 0.4s;
+  width: 100%;
+
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+  
+}
+
+.footer-section {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.footer-section h3, p {
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.social-icons a {
+  color: #000000;
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 0;
+  transition: 0.3s;
+}
+
+.social-icons a i {
+  margin-right: 6px;
+}
+
+.social-icons a:hover {
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.footer-bottom {
+  border-top: 1px solid #000000;
+  padding-top: 10px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+footer p {
+  color: #ffffff;
+}
+#botaoDireita{
+    border-radius: 10px;
+    border: none;
+    font-size: 50px;
+    cursor: pointer;
+    padding: 5px;
+    background-color:transparent;
+    display: block;
+    margin-left: auto;
+    transform: translateY(-250px);
+    color: rgb(0, 0, 0);
+
+}
+
+#botaoEsquerda{
+    border-radius: 10px;
+    border: none;
+    font-size: 50px;
+    cursor: pointer;
+    padding: 5px;
+    background-color:transparent;
+    display: block;
+    margin-right: auto;
+    transform: translateY(-185px);
+    color: rgb(0, 0, 0);
+    
+
 }

@@ -29,3 +29,12 @@ function slideShow(direction) {
 
 timer = setTimeout(slideShow, tempo);
 slideShow()
+
+function alertaBonito(event) {
+  event.preventDefault(); // impede recarregamento do formulário
+  Swal.fire({
+    title: "Seu feedback foi enviado!",
+    icon: "success",
+    draggable: false //deixa o mouse arrastável ou n
+  });
+}

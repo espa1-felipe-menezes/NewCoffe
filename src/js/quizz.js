@@ -7,6 +7,10 @@ let perguntas = [
     "Deseja algum item complementar? (velas de aniversário, guardanapos, pratos descartáveis...)"
 ];
 
+function troca(cor){
+    document.body.style.background = cor;
+}
+
 let contador = 0;
 let pergunta = document.getElementById("pergunta");
 
@@ -24,9 +28,17 @@ function trocaPergunta() {
         const divResp = document.getElementById("inputResposta");
         pergunta.innerHTML = "Encomenda registrada! Obrigado!<br>";
         divResp.innerHTML = "Detalhes do pedido:<br><br>";
-
+        alertaBonito(event)
         for (let x = 0; x < respostas.length; x++) {
             divResp.innerHTML += `${x + 1}. ${perguntas[x]}<br><strong>Resposta:</strong> ${respostas[x]}<br><br>`;
         }
     }
+}
+function alertaBonito(event) {
+  event.preventDefault(); // impede recarregamento do formulário
+  Swal.fire({
+    title: "Seu pedido foi enviado com sucesso!",
+    icon: "success",
+    draggable: false //deixa o mouse arrastável ou n
+  });
 }

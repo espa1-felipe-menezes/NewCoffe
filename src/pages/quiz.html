@@ -5,27 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/quiz.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
+      <header> 
+       <div class="titulo">New Coffee</div>
+    </header>
     <nav>
         <ul class="menu">
             <li><a href="../../index.html">Home</a></li>
-            <li><a href="./src/pages/sobre.html">Sobre</a></li>
+            <li><a href="./sobre.html">Sobre</a></li>
             <li><a href="./quiz.html">Quiz</a></li>
-            <li><a href="./contato.html">Contato</a></li>
+            <li><a href="./contato.html">Feedback</a></li>
             <li><a href="./carrinho.html">Carrinho</a></li>
-            <li><a href="./sobre-nos.html">Sobre Nós</a></li>
+            <li><button class="botoes" onclick="troca('#FADCD9')"></button></li>
+            <li><button class="botoes" onclick="troca('#F5EBDD')"></button></li>
+            <li><button class="botoes" onclick="troca('#C9B7A7')"></button></li>
         </ul>
         </nav>
+
     <div class="container-quizz" id="container-quizz">
         <div id="pergunta" class="pergunta">
-            que tipo de encomenda deseja fazer?
+            Que tipo de encomenda deseja fazer?
         </div>
-        <div id="inputResposta"><input type="text" id="txtInput" placeholder="digite aqui sua reposta"><br>
-        <button onclick="trocaPergunta()">proxima pergunta</button></div>
-        
+        <div id="inputResposta"><input type="text" id="txtInput" placeholder="Digite aqui sua reposta"><br>
+        <button onclick="trocaPergunta()">Proxima pergunta</button></div>
     </div>
+
+<footer>
+    <div class="footer-container">
+    <div class="footer-section">
+      <h3>NewCoffee</h3>
+      <p>Mais que uma doceria uma experiência glamurosa.</p>
+    </div>
+
+    <div class="footer-section">
+      <h3>Informações</h3>
+      <p><strong>Email:</strong> atendimento@fiap.com.br</p>
+      <p><strong>Telefone:</strong> (11) 3385-8010</p>
+    </div>
+
+    <div class="footer-section">
+      <h3>Nos siga no Instagram</h3>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/gonzales_jpg?igsh=Ymt5cWQxemt5NWl5&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i> gonzales_jpg</a><br>
+        <a href="https://www.instagram.com/mnzsfp_/" target="blank"><i class="fab fa-instagram"></i> mnzsfp</a><br>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; FIAP | Todos os direitos reservados</p>
+  </div>
+</footer>
+
     <script src="../js/quizz.js"></script>
-    <script src="../js/script.js"></script><!--caso queira manter a troca de cor do fundo-->
 </body>
 </html>

@@ -15,7 +15,7 @@
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./src/pages/sobre.html">Sobre Nós</a></li>
                 <li><a href="./src/pages/quiz.html">Quiz</a></li>
-                <li><a href="./src/pages/contato.html">Contato</a></li>
+                <li><a href="./src/pages/contato.html">Feedback</a></li>
                 <li><a href="./src/pages/carrinho.html">Carrinho</a></li>
                 <li><button class="botoes" onclick="troca('#FADCD9')"></button></li>
                 <li><button class="botoes" onclick="troca('#F5EBDD')"></button></li>
@@ -24,33 +24,56 @@
 
         </nav>
     <div class="slideshow2">
-  <button onclick="slideShow('left')">‹</button>
-  <img id="banner" src="../assets/banner.png" alt="banner">
-  <button onclick="slideShow('right')">›</button>
+    <img id="banner" src="../assets/banner.png" alt="banner">
+    <button id="botaoEsquerda" onclick="slideShow('left')">‹</button>
+    <button id="botaoDireita" onclick="slideShow('right')">›</button>
 </div>
      <section>
-        <h2 class="titulo" >Galeria de doces</h2>
+        <h2 class="titulo2" >Galeria de doces</h2>
         <article>   
             <div id="fotos1" >
-                <a href=""><img src="./src/assets/foto1.png" class="fotos" alt=""></a>
-                <a href=""><img src="./src/assets/foto2.png" class="fotos" alt=""></a>
-                <a href=""><img src="./src/assets/foto3.png" class="fotos" alt=""></a>
-                <a href=""><img src="./src/assets/foto4.png" class="fotos" alt=""></a>
-                <a href=""><img src="./src/assets/foto5.png" class="fotos" alt=""></a>
-                <a href=""><img src="./src/assets/foto6.png" class="fotos" alt=""></a>
-            </div>
+                <img src="./src/assets/foto1.png" class="fotos" alt="">                   
+                <img src="./src/assets/foto2.png" class="fotos" alt="">                    
+                <img src="./src/assets/foto3.png" class="fotos" alt="">                      
+                <img src="./src/assets/foto4.png" class="fotos" alt="">                        
+                <img src="./src/assets/foto5.png" class="fotos" alt="">     
+                <img src="./src/assets/foto6.png" class="fotos" alt="">
+                 </div>
             <div id="fotos1" >
-                <a href=""><img src="./src/assets/foto7.png" class="fotos" alt=""></a>
-                <a href=""><img src="./src/assets/foto8.png" class="fotos" alt=""></a>
-                <a href=""><img src="./src/assets/foto9.png" class="fotos" alt=""></a>
-                <a href=""><img src="./src/assets/foto10.png" class="fotos" alt=""></a>
-                <a href=""><img src="./src/assets/foto11.png" class="fotos" alt=""></a>
-                <a href=""><img src="./src/assets/foto12.png" class="fotos" alt=""></a>
-            </div>
+             <img src="./src/assets/foto7.png" class="fotos" alt="">
+             <img src="./src/assets/foto8.png" class="fotos" alt="">
+             <img src="./src/assets/foto9.png" class="fotos" alt="">
+             <img src="./src/assets/foto10.png" class="fotos" alt="">
+             <img src="./src/assets/foto11.png" class="fotos" alt="">
+             <img src="./src/assets/foto12.png" class="fotos" alt="">
+         </div>
         </article>  
      </section>
 <footer>
-    <div>fodsae</div>
+    <div class="footer-container">
+    <div class="footer-section">
+      <h3>NewCoffee</h3>
+      <p>Mais que uma doceria uma experiência glamurosa.</p>
+    </div>
+
+    <div class="footer-section">
+      <h3>Informações</h3>
+      <p><strong>Email:</strong> atendimento@fiap.com.br</p>
+      <p><strong>Telefone:</strong> (11) 3385-8010</p>
+    </div>
+
+    <div class="footer-section">
+      <h3>Nos siga no Instagram</h3>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/gonzales_jpg?igsh=Ymt5cWQxemt5NWl5&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i> gonzales_jpg</a><br>
+        <a href="https://www.instagram.com/mnzsfp_/" target="blank"><i class="fab fa-instagram"></i> mnzsfp</a><br>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; FIAP | Todos os direitos reservados</p>
+  </div>
 </footer>
 <script src="./src/js/script.js"></script>
 </body>
