@@ -7,7 +7,7 @@ O projeto apresenta navegação intuitiva, um sistema de pedidos interativo, um 
 ```
 ## ☕ Estrutura de Pastas — NEWCOFFE
 
-```
+```bash
 ├── NEWCOFFE/
 │
 ├── src/
