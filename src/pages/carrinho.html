@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NewCoffe</title>
+    <link rel="stylesheet" href="../css/carrinho.css">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/contato.css">
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 </head>
 <body>
    <header> 
@@ -18,38 +18,19 @@
                 <li><a href="../pages/sobre.html">Sobre</a></li>
                 <li><a href="../pages/quiz.html">Quiz</a></li>
                 <li><a href="../pages/contato.html">Feedback</a></li>
-                <li><a href="../pages/carrinho.html">Carrinho</a></li>
+                <li><a href="../pages/carrinho.hmtl">Carrinho</a></li>
                 <li><button class="botoes" onclick="troca('#FADCD9')"></button></li>
                 <li><button class="botoes" onclick="troca('#F5EBDD')"></button></li>
                 <li><button class="botoes" onclick="troca('#C9B7A7')"></button></li>
             </ul>
-
         </nav>
-     <section>
-        <div class="container"> 
-    <article>
-        <form id="cadastrar" action="">
-            <span>Sua opnião importa! Nos de seu Feedback</span>
-            <br>
-            <input type="text" name="nome" placeholder="Nome">
-            <br>
-            <br>
-            <span>Sexo:</span>
-            <br>
+        <fieldset id="campo">
+            <legend id="carrinho" >Carrinho</legend>
+            <p>Seu carrinho está vazio!</p>
+        </fieldset>
 
-            <input type="radio" name="genero" value="m">
-            <span>Masculino</span>
-            <input type="radio" name="genero" value="f">
-            <span>Feminino</span>
-            <input type="radio" name="genero" value="o">
-            <span>Outro</span>
-            <br><br>
-            <input type="text" placeholder="Digite aqui seu Feedback!">
-            <input type="submit" onclick="alertaBonito(event)" value="Cadastrar" class="botoes">
-        </form>
-    </article>
-    </div>
-     </section>
+
+
      <footer>
     <div class="footer-container">
     <div class="footer-section">

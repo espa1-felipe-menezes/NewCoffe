@@ -1,0 +1,84 @@
+#cadastrar {
+    background-color: #ffffff;
+    /* espaço interno entre o conteúdo do formulário e as bordas */
+    padding: 20px;
+    width: 270px;
+    margin: 50px;
+    margin-left: auto;
+    border: 1px solid #ccc;
+    /* Adiciona borda de 1px e cor cinza claro */
+    border-radius: 10px;
+}
+#login{
+    background-color: #ffffff;
+    padding: 20px;
+    width: 270px;
+    margin: 50px;
+    margin-right: auto;
+    margin-bottom: 100px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    
+}
+input[type="text"],
+input[type="date"],
+input[type="submit"] {
+    /* Seleciona todos os inputs ao mesmo tempo */
+    width: 100%;
+    /* faz o input preencher todo o formulário */
+    padding: 5px;
+    /* espaço interno do input 5px  */
+    margin-top: 5px;
+    margin-bottom: 10px;
+    /* Espaço de um imput para outro em cima e embaixo */
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    /* troca a cor do botão para azul e a letra para branco */
+    background-color: #998b7f;
+    color: rgb(255, 255, 255);
+    /* tira a borda do botão */
+    border: none;
+    /* deixa o cursor no formato de clicavél  */
+    cursor: pointer;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* centraliza horizontalmente */
+    gap: 50px; /* espaço entre os formulários */
+    margin-top: 50px;
+}
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    /* Seleciona todos os inputs ao mesmo tempo */
+    width: 100%;
+    /* faz o input preencher todo o formulário */
+    padding: 4px;
+    /* espaço interno do input 5px  */
+    margin-top: 5px;
+    margin-bottom: 10px;
+    /* Espaço de um imput para outro em cima e embaixo */
+    border-radius: 10px;
+}
+footer {
+  background-color: #998b7f;
+  color: #e0e0e0;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: auto;
+  transition: 0.4s;
+  width: 100%;
+  position: fixed ;
+  bottom: 0px;
+}
+.botoes{
+    transition: all 0.5s ease;
+}
+.botoes:hover{
+    background-color: green;
+    transform: scale(1.05);
+}
