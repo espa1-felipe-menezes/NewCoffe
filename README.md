@@ -5,15 +5,43 @@ O projeto apresenta navegação intuitiva, um sistema de pedidos interativo, um 
 ---
 ##  Estrutura do Projeto  
 ```
-NEWCOFFE/
+## ☕ Estrutura de Pastas — NEWCOFFE
+
+```bash
+├── NEWCOFFE/
 │
 ├── src/
-│   ├── assets/        
-│   ├── css/           
-│   ├── js/            
+│   ├── assets/
+│   │   ├── banner.png
+│   │   ├── banner2.png
+│   │   ├── banner3.png
+│   │   ├── banner4.png
+│   │   ├── foto1.png
+│   │   ├── foto2.png
+│   │   ├── foto3.png
+│   │   ├── foto4.png
+│   │   ├── foto5.png
+│   │   ├── foto6.png
+│   │   ├── foto7.png
+│   │   ├── foto8.png
+│   │   ├── foto9.png
+│   │   ├── foto10.png
+│   │   ├── foto11.png
+│   │   ├── foto12.png
+│   │   └── logo.png
+│   │
+│   ├── css/
+│   │   ├── carrinho.css
+│   │   ├── quiz.css
+│   │   ├── sobre.css
+│   │   ├── style.css
+│   │   └── contato.css
+│   │
+│   ├── js/
 │   │   ├── quizz.js
 │   │   └── script.js
-│   └── pages/         
+│   │
+│   └── pages/
 │       ├── carrinho.html
 │       ├── contato.html
 │       ├── quiz.html
@@ -22,6 +50,7 @@ NEWCOFFE/
 │
 ├── index.html
 └── README.md
+
 ```
 ## Tecnologias Utilizadas  
 - **HTML5** – Estruturação do conteúdo  
