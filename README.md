@@ -1,9 +1,9 @@
 # New Coffee  
 
-**New Coffee** é um site desenvolvido com **HTML** e **CSS**, criado para oferecer uma experiência digital aconchegante inspirada em uma cafeteria moderna.  
+**New Coffee** é um site desenvolvido com **HTML**, **CSS** E **Javascript**, criado para oferecer uma experiência digital aconchegante inspirada em uma cafeteria moderna.  
 O projeto apresenta navegação intuitiva, um sistema de pedidos interativo, um quiz gamificado e um formulário de feedback com alertas personalizados. 
 ---
-## 🌐 Estrutura do Projeto  
+##  Estrutura do Projeto  
 ```
 NEWCOFFE/
 │
